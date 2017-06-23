@@ -1,7 +1,7 @@
 # FiRRS* Stack Boiler Plate 
 ### Pronounced furs
 ---
-## Firebase, React, Redux, Sass
+## Firebase, React, Redux, Sass, Webpack
 
 
 Bare-bones boiler plate users to make React-Redux apps fast.
