@@ -1,5 +1,4 @@
-# FiRRS* Stack Boiler Plate
-### Pronounced furs
+# FiRRS* Stack Boiler Plate ### Pronounced furs
 ---
 ## Firebase, React, Redux, Sass
 
