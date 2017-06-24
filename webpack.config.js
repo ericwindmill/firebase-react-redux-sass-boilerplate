@@ -1,20 +1,20 @@
-var webpack = require('webpack')
+var path = require('path')
 
 module.exports = {
-  entry: "./src/scripts",
+  context: __dirname,
+  entry: './src/scripts/project.jsx',
   output: {
-    publicPath: "/dist/scripts/",
-    path: __dirname + "/dist/scripts",
-    filename: "bundle.js"
+    path: path.resolve(__dirname),
+    filename: 'bundle.js'
   },
   module: {
     loaders: [
       {
-        test: /\.js$/,
-        loader: "babel",
-        exclude: "/node_modules",
+        test: [/\.jsx?$/, /\.js?$/],
+        exclude: '/node_modules/',
+        loader: 'babel-loader',
         query: {
-          presets: ["es2015", "react"]
+          presets: ['react', 'es2015']
         }
       },
       {
@@ -23,5 +23,9 @@ module.exports = {
         exclude: "/node_modules"
       }
     ]
-  }
+  },
+  resolve: {
+    extensions: ['.js', '.jsx', '*', '']
+  },
+  devtool: 'source-map'
 }

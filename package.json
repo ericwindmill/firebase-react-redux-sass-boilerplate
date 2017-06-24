@@ -1,7 +1,7 @@
 {
-  "name": "FiRRS - boilerplate",
+  "name": "firrs",
   "version": "0.0.0",
-  "description": "This is boiler plate to create a React App fast using Firebase as a backend (should you need a backend).",
+  "description": "Boilerplate using Firebase with React/Redux for super fast prototyping.",
   "main": "app.js",
   "repository": "https://github.com/ericwindmill/firebase-react-redux-sass-boilerplate",
   "scripts": {
@@ -14,6 +14,7 @@
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
     "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
     "sass": "^0.5.0",
     "firebase": "4.1.3"
   },

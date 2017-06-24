@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -8,7 +7,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div id='main' className={this.props.theme}>
+      <div>
         <h1>This is my app component.</h1>
       </div>
     )
