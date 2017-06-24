@@ -1,5 +1,5 @@
 {
-  "name": "FiRRS - boilerplate",
+  "name": "FiRRS-boilerplate",
   "version": "0.0.0",
   "description": "This is boiler plate to create a React App fast using Firebase as a backend (should you need a backend).",
   "main": "app.js",
