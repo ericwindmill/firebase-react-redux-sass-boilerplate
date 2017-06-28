@@ -14,10 +14,12 @@ Includes
 - Sass 
 
 ## Use it:
-`
+```
 git clone https://github.com/ericwindmill/firebase-react-redux-sass-boilerplate
+
 yarn install
+
 yarn start
-`
+```
 
 
