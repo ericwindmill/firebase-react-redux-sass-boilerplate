@@ -1,14 +1,17 @@
 import { DISPLAY_MESSAGE } from '../actions/app_actions'
 
-let preloadedState = {
+const defaultMessage = {
   message: 'Welcome to the FiRRS Stack!'
 }
 
-export const message = (state = preloadedState, action) => {
+const appReducer = (state = defaultMessage, action) => {
+  Object.freeze(state)
   switch (action.type) {
     case DISPLAY_MESSAGE:
-      return action.message
+      return Object.assign({}, action.message)
     default:
       return state
   }
 }
+
+export default appReducer
